@@ -1,0 +1,550 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "name": "icon",
+      "role": "icon"
+    },
+    {
+      "id": 2,
+      "name": "client",
+      "role": "client"
+    },
+    {
+      "id": 3,
+      "name": "user",
+      "role": "user"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "prename": "Max",
+      "surname": "Mustermann",
+      "username": "MMustermann",
+      "password": "abc123",
+      "role": "icon",
+      "client": 1,
+      "status": "active",
+      "exitdate": ""
+    },
+    {
+      "id": 2,
+      "prename": "Amy",
+      "surname": "Musterfrau",
+      "username": "AMusterfrau",
+      "password": "def456",
+      "role": "client",
+      "client": 2,
+      "status": "active",
+      "exitdate": ""
+    },
+    {
+      "id": 2,
+      "prename": "Jamie",
+      "surname": "Johnson",
+      "username": "JJJohnson",
+      "password": "def456",
+      "role": "client",
+      "client": 3,
+      "status": "active",
+      "exitdate": ""
+    },
+    {
+      "id": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "username": "JJohnson",
+      "password": "ghi789",
+      "role": "user",
+      "client": 3,
+      "status": "active",
+      "exitdate": ""
+    },
+    {
+      "id": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "username": "DGone",
+      "password": "jkl123",
+      "role": "user",
+      "client": 2,
+      "status": "inactive",
+      "exitdate": "2022-12-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "prename": "Hello",
+      "surname": "World",
+      "username": "HWorld",
+      "password": "abc123",
+      "role": "user",
+      "client": 2,
+      "status": "active",
+      "exitdate": ""
+    },
+    {
+      "id": 6,
+      "prename": "Abraham",
+      "surname": "Pavlov",
+      "username": "APavlov",
+      "password": "abc123",
+      "role": "user",
+      "client": 3,
+      "status": "active",
+      "exitdate": ""
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "ICON",
+      "contact": "Karl Waser",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "contact": "James Contact",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "IBM",
+      "contact": "John Contact",
+      "status": "inactive"
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "contact": "Steve Jobs",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "B&R",
+      "contact": "Jörg Theiss",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Jungheinrich",
+      "contact": "Lukas Reisinger",
+      "status": "active"
+    },
+    {
+      "name": "Knapp",
+      "contact": "Fabian Pichler",
+      "id": 7
+    },
+    {
+      "name": "AVL",
+      "contact": "Chris Haas",
+      "status": "inactive",
+      "id": 8
+    },
+    {
+      "name": "Campus02",
+      "contact": "Stefan Grünwald",
+      "status": "active",
+      "id": 9
+    },
+    {
+      "name": "Siemens",
+      "contact": "Siem Ens",
+      "status": "active",
+      "id": 10
+    },
+    {
+      "name": "abc",
+      "contact": "def",
+      "status": "active",
+      "id": 11
+    }
+  ],
+  "userRecord": [
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Afghanistan",
+      "work": "true",
+      "rangeStart": "6/5/23",
+      "rangeEnd": "6/8/23",
+      "client": 3,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Österreich",
+      "work": "true",
+      "rangeStart": "4/1/23",
+      "rangeEnd": "4/26/23",
+      "client": 3,
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "prename": "Hello",
+      "surname": "World",
+      "country": "Österreich",
+      "work": "true",
+      "rangeStart": "4/26/23",
+      "rangeEnd": "4/27/23",
+      "client": 2,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "country": "Kaimaninseln",
+      "work": "true",
+      "rangeStart": "3/26/23",
+      "rangeEnd": "3/27/23",
+      "client": 2,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "country": "Kaimaninseln",
+      "work": "true",
+      "rangeStart": "4/4/23",
+      "rangeEnd": "4/5/23",
+      "client": 2,
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Aruba",
+      "work": "false",
+      "rangeStart": "4/11/23",
+      "rangeEnd": "4/12/23",
+      "client": 3,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Österreich",
+      "work": "true",
+      "rangeStart": "4/19/23",
+      "rangeEnd": "4/20/23",
+      "client": 3,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Dänemark",
+      "work": "true",
+      "rangeStart": "4/27/23",
+      "rangeEnd": "4/27/23",
+      "client": 3,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Österreich",
+      "work": "true",
+      "rangeStart": "4/25/23",
+      "rangeEnd": "4/27/23",
+      "client": 3,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "country": "Österreich",
+      "rangeStart": "4/4/23",
+      "rangeEnd": "4/5/23",
+      "client": 2,
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Antarktika",
+      "rangeStart": "4/6/23",
+      "rangeEnd": "4/7/23",
+      "client": 3,
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Brasilien",
+      "work": "true",
+      "rangeStart": "4/4/23",
+      "rangeEnd": "4/20/23",
+      "client": 3,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Anguilla",
+      "work": "true",
+      "rangeStart": "4/6/23",
+      "rangeEnd": "4/7/23",
+      "client": 3,
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Jemen",
+      "work": "false",
+      "rangeStart": "4/19/23",
+      "rangeEnd": "4/20/23",
+      "client": 3,
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Afghanistan",
+      "work": "false",
+      "rangeStart": "4/27/23",
+      "rangeEnd": "4/27/23",
+      "client": 3,
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Südkorea",
+      "work": "false",
+      "rangeStart": "4/5/23",
+      "rangeEnd": "4/6/23",
+      "client": 3,
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Afghanistan",
+      "work": "false",
+      "rangeStart": "4/4/23",
+      "rangeEnd": "4/4/23",
+      "client": 3,
+      "id": 17
+    },
+    {
+      "userId": 6,
+      "prename": "Abraham",
+      "surname": "Pavlov",
+      "country": "Australien",
+      "work": "true",
+      "rangeStart": "4/14/23",
+      "rangeEnd": "4/21/23",
+      "client": 3,
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Bulgarien",
+      "work": "true",
+      "rangeStart": "5/10/23",
+      "rangeEnd": "5/11/23",
+      "client": 3,
+      "id": 19
+    },
+    {
+      "userId": 6,
+      "prename": "Abraham",
+      "surname": "Pavlov",
+      "country": "Deutschland",
+      "work": "true",
+      "rangeStart": "6/1/23",
+      "rangeEnd": "6/8/23",
+      "client": 3,
+      "id": 20
+    },
+    {
+      "userId": 6,
+      "prename": "Abraham",
+      "surname": "Pavlov",
+      "country": "Deutschland",
+      "work": "true",
+      "rangeStart": "6/13/23",
+      "rangeEnd": "6/21/23",
+      "client": 3,
+      "id": 21
+    },
+    {
+      "userId": 6,
+      "prename": "Abraham",
+      "surname": "Pavlov",
+      "country": "Finnland",
+      "work": "false",
+      "rangeStart": "7/19/23",
+      "rangeEnd": "7/20/23",
+      "client": 3,
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Deutschland",
+      "work": "true",
+      "rangeStart": "8/1/23",
+      "rangeEnd": "8/2/23",
+      "client": 3,
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Österreich",
+      "work": "true",
+      "rangeStart": "4/10/24",
+      "rangeEnd": "4/10/24",
+      "client": 3,
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Deutschland",
+      "work": "true",
+      "rangeStart": "4/2/23",
+      "rangeEnd": "4/2/23",
+      "client": 3,
+      "id": 25
+    },
+    {
+      "userId": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "country": "Deutschland",
+      "work": "true",
+      "rangeStart": "4/7/23",
+      "rangeEnd": "4/7/23",
+      "client": 2,
+      "id": 26
+    },
+    {
+      "userId": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "country": "Deutschland",
+      "work": "false",
+      "rangeStart": "4/28/23",
+      "rangeEnd": "4/28/23",
+      "client": 2,
+      "id": 27
+    },
+    {
+      "userId": 4,
+      "prename": "Dan",
+      "surname": "Gone",
+      "country": "Französisch Guyana",
+      "work": "false",
+      "rangeStart": "4/25/23",
+      "rangeEnd": "4/25/23",
+      "client": 2,
+      "id": 28
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Israel",
+      "work": "false",
+      "rangeStart": "9/20/23",
+      "rangeEnd": "9/21/23",
+      "client": 3,
+      "id": 29
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Aserbaidschan",
+      "work": "true",
+      "rangeStart": "4/19/23",
+      "rangeEnd": "4/20/23",
+      "client": 3,
+      "id": 30
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Österreich",
+      "work": "true",
+      "rangeStart": "4/18/23",
+      "rangeEnd": "4/18/23",
+      "client": 3,
+      "id": 31
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Albanien",
+      "work": "false",
+      "rangeStart": "4/20/23",
+      "rangeEnd": "4/20/23",
+      "client": 3,
+      "id": 32
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Deutschland",
+      "work": "true",
+      "rangeStart": "9/10/23",
+      "rangeEnd": "9/14/23",
+      "client": 3,
+      "id": 33
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Kuba",
+      "work": "false",
+      "rangeStart": "4/20/23",
+      "rangeEnd": "4/20/23",
+      "client": 3,
+      "id": 34
+    },
+    {
+      "userId": 3,
+      "prename": "John",
+      "surname": "Johnson",
+      "country": "Albanien",
+      "work": "true",
+      "rangeStart": "5/10/23",
+      "rangeEnd": "5/11/23",
+      "client": 3,
+      "id": 35
+    }
+  ]
+}
